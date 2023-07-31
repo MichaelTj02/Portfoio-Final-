@@ -214,6 +214,38 @@
     color:#E68600;
 }
 
+.values-text-additional-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15rem;
+    color: #767C7C;
+}
+
+.values-text-additional-container h4 {
+    font-size: 1.1rem;
+}
+
+.values-text-additional-container strong {
+    color: #cb4154;
+}
+
+@media screen and (min-width: 600px) {
+    .values-text-additional-container {
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .values-text-additional-container {
+        margin-right: 7rem;
+    }
+}
+
+@media screen and (min-width: 1900px){
+    .values-text-additional-container {
+        margin-right: 19vh;
+    }
+}
 
 /* End of core values */
 
@@ -233,13 +265,60 @@
 }
 
 .employment-text-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15vh;
+}
+
+.employment-text-container li {
+    font-family: "Apercu-mono", sans-serif;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .employment-text-container {
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .employment-text-container {
+        margin-right: 7rem;
+    }
+}
+
+@media screen and (min-width: 1900px){
+    .employment-text-container {
+        margin-right: 19vh;
+    }
+}
+
+.employment-content-container {
     max-width: 1240px;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20vh;
+    padding-top: 7vh;
+    color: #3F3333;
+}
+
+.employment-content-container h4 {
+    margin-top: 1rem;
+    max-width: 30rem;
+}
+
+.employment-content-container p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 30rem;
 }
 
 
 /* End of employment interest */
+
+/* Contact me section */
+
+
+/* End of contact me section */
