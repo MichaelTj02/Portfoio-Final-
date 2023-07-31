@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Futura-Book';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Futura-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Apercu-Mono';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Apercu-Mono.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica-Neue-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Helvetica-Neue-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica-Neue-Medium';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/Helvetica-Neue-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SFPro-Medium';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/SFPro-Medium.otf') format('truetype');
+}

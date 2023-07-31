@@ -1,4 +1,245 @@
-.home-opening {
+/* Homepage hero */
+
+.hero-home-page {
     background-image: url("/img/bg.png");
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
 }
+
+.title-text-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30vh;
+}
+
+@media screen and (min-width: 600px) {
+    .title-text-container {
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .title-text-container {
+        margin-right: 7rem;
+    }
+
+    .title-text-container h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 1900px){
+    .title-text-container {
+        margin-right: 19vh;
+        font-size: 5.5rem;
+    }
+}
+
+.home-arrow-container {
+    padding-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* End of homepage hero */
+
+/* About section */
+
+.about-section-bg {
+    background-image: url("/img/aboutbg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.about-section-container {
+    margin-top: 50vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section-container h2 strong {
+    color: #323E74;
+}
+
+.about-section-container h3 strong {
+    color: #E68600;
+}
+
+@media screen and (min-width: 1240px) {
+    .about-section-container {
+        max-width: 1240px;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+/* End of about section */
+
+/* Content below product description */
+
+.product-description-content-container {
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+} 
+
+@media screen and (min-width: 900px) { 
+    .product-description-content-container { 
+        max-width: 1240px; 
+        padding-right: 3rem; 
+        padding-left: 3rem; 
+    } 
+} 
+
+.big-text {
+    font-family: "relativemono", serif;
+    font-size: 1.5rem;
+}
+
+/* Grid for projects */
+
+.projects-grid-container {
+    display: grid;
+}
+
+.projects-grid-col {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+@media screen and (min-width: 900px) { 
+    .projects-grid-col { 
+        grid-template-columns: repeat(7,minmax(0,1fr)); 
+    } 
+}
+
+@media screen and (min-width: 900px) { 
+    .projects-grid-image { 
+        grid-column: span 2/span 2;
+    } 
+}
+
+.projects-grid-image img {
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 900px) { 
+    .projects-grid-description { 
+        grid-column: span 3/span 3;
+    } 
+}
+
+.projects-description-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 900px) { 
+    .projects-description-text-container { 
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+@media screen and (min-width: 1600px) { 
+    .projects-description-text-container { 
+        padding-left: 6rem;
+        padding-right: 6rem;
+    } 
+}
+
+.projects-description-title {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1240px) { 
+    .projects-description-title { 
+        margin-top: 4rem;
+    } 
+}
+
+@media screen and (min-width: 1700px) { 
+    .projects-description-title { 
+        margin-top: 10rem;
+    } 
+}
+
+.projects-description-text-container p {
+    margin-top: 1.5rem;
+}
+
+/* Grid for projects */
+
+
+/* Core values */
+
+.values-container {
+    background-color: #323E74;
+    height: 100vh;
+    margin: 0;
+}
+
+@media screen and (min-width: 1240px) {
+    .values-container {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.values-text-container {
+    max-width: 1240px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50vh;
+    color: #F4EBCF;
+}
+
+.values-text-subtitle {
+    color:#E68600;
+}
+
+
+/* End of core values */
+
+
+/* Employment of interest */
+
+.employment-container {
+    height: 100vh;
+    margin: 0;
+}
+
+@media screen and (min-width: 1240px) {
+    .employment-container {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.employment-text-container {
+    max-width: 1240px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20vh;
+}
+
+
+/* End of employment interest */
