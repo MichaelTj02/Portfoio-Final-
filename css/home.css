@@ -51,7 +51,7 @@
 .about-section-bg {
     background-image: url("/img/aboutbg.png");
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     margin: 0;
 }
 
@@ -109,6 +109,7 @@
 
 .projects-grid-container {
     display: grid;
+    margin-bottom: 20rem;
 }
 
 .projects-grid-col {
@@ -253,7 +254,7 @@
 /* Employment of interest */
 
 .employment-container {
-    height: 100vh;
+    height: 80vh;
     margin: 0;
 }
 
