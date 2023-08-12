@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styleGuide.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Portfolio - Style Guide Template</h1>
+
+        <nav>
+            <a href="#interactive_elements">Interactive Elements</a>
+            <a href="#text_elements">Text Elements</a>
+            <a href="#combined_elements">Combined Elements</a>
+            <a href="product_listing.html">Product Listing Template</a>
+            <a href="checkout.html">Checkout Template</a>
+            <a href="#citations">Citations</a>
+        </nav>
+
+    </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+        <h2>Interactive Elements</h2>
+
+
+        <section class="element">
+            <h3>In-text link</h3>
+            <p><a href=https://www.tutorialspoint.com/html/html_text_links.htm#>In-text link</a></p>
+        </section>
+
+
+        <!-- Default Button styling section -->
+        <section class="element">
+
+            <h3>Navigation Link</h3>
+            <a href="https://www.w3schools.com/tags/tag_nav.asp">Nav link</a>
+            <!--taken from https://www.w3schools.com/tags/tag_nav.asp-->
+
+            <h4>CSS selector:</h4>
+            <p>.button-nav</p>
+
+            <h4>Sample code:</h4>
+            <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+            <h4>Rendered element:</h4>
+            <a class="button-nav" href="#">Default Button</a>
+
+        </section>
+
+
+        <section class="element">
+            <h3>Submit/Reset Buttons</h3>
+            <div class="flex-container-submit-reset-button">
+                <form>
+                    <input type="submit" class="btn">
+                    <input type="reset" class="resetbtn">
+                </form>
+            </div>
+            <!--taken from https://www.w3schools.com/tags/att_button_type.asp-->
+        </section>
+
+
+        <section class="element">
+            <h3>Text Input Field with Label</h3>
+            <form>
+                <label>Card Number: <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456"></label>
+            </form>
+            <!--taken from https://www.freecodecamp.org/news/html-label-label-tag-example
+          /#:~:text=You%20use%20the%20HTML%20%3Clabel,elements%20inside%20a%20form%20element.-->
+        </section>
+
+        <section class="element">
+            <h3>Image as a Link</h3>
+            <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML">
+                <div class="imgContainer">
+                    <img class="image" src="image/tshirt1.webp" alt="white t-shirt">
+                </div>
+                <!-- taken from https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML -->
+                <!-- image hover taken from https://codepen.io/ardieziff/pen/WjMxwy -->
+            </a>
+        </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+        <h2>Text Elements</h2>
+
+        <section class="element">
+            <h3>Headings</h3>
+            <h1>H1 header (page title)</h1>
+            <h2>H2 header (section heading)</h2>
+            <h3>H3 header (sub-section heading)</h3>
+            <h4>H4 header (secondary sub-section heading)</h4>
+            <!-- learnt from the lab -->
+        </section>
+
+        <section class="element">
+            <h3>Paragraphs</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <!-- learnt from previous experience -->
+        </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+        <h2>Combined Elements</h2>
+
+        <section class="element">
+            <h3>Main Navigation</h3>
+            <nav>
+                <div class="navbar">
+                    <div class="nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+                        </div>
+                        <div class="menu-items">
+                            <li><a href="index.html">contact</a></li>
+                            <li><a href="styleGuide.html">style guide</a></li>
+                            <li><a href="project1.html">project 1: E-Hop</a></li>
+                            <li><a href="project2.html">project 2: Nono's Matcha House</a></li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <!-- BRANDING IDEA SECTION // -->
+    <section id="branding_idea">
+        <h2>Branding Ideas</h2>
+        <section class="element">
+            <h3>What does the company do , or offer:</h3>
+            <p>Garment manufacturer and retail based in the UK</p>
+
+            <h3>Who is the company to potential customers?</h3>
+            <p>A company selling high-end timeless clothing for both men and women</p>
+
+            <h3>Why might this company entice someone to purchase a product or service?</h3>
+            <p>It has been established for a long time and is proven to be a great brand
+                offering timeless and durable products made of high-end materials.</p>
+        </section>
+
+        <section id="brand_components">
+
+            <h2>Brand Components</h2>
+
+            <section class="element">
+                <h3>Font</h3>
+                <h1>Futura-Book heading</h1>
+                <h2>Apercu-mono sub-heading</h2>
+                <h3>Helvetica-Neue-Regular section heading</h3>
+                <h4>Poppins-Regular section sub-heading</h4>
+                <p>Quicksand-Regular paragraph</p>
+            </section>
+
+            <section class="element">
+                <h3>Colour Palletes</h3>
+
+                <div class="flex-container-color">
+                    <div class="colorPalletes">
+                        <p>Black <br> #000000 <br> Key Colour </p>
+                    </div>
+                    <div class="colorPalletes colorOffWhite">
+                        <p>Off-White <br> #FAF8F2 <br> Background Colour</p>
+                    </div>
+                    <div class="colorPalletes colorGrey">
+                        <p>Grey <br> #767C7C <br> Accent Colour</p>
+                    </div>
+                    <div class="colorPalletes colorPurple">
+                        <p>Purple <br> #7F6B8D <br> Accent Colour</p>
+                    </div>
+                    <div class="colorPalletes colorOrange">
+                        <p>Orange <br> #E68600 <br> Accent Colour</p>
+                    </div>
+                    <div class="colorPalletes colorDarkBlue">
+                        <p>Dark Blue <br> #323E74 <br> Nav Bar and Buttons Colour</p>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+    </section>
+    <!-- BRANDING IDEA SECTION -->
+
+    <section id="citations">
+        <h2>Citations</h2>
+
+        <ul>
+            <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a
+                    href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a>
+            </li>
+            <li>Sørensen, C., E. (n.d.). <strong>Playfair Display [Font]</strong>. Retrieved from <a
+                    href="https://fonts.google.com/specimen/Playfair+Display?query=playfair">https://fonts.google.com/specimen/Playfair+Display?query=playfair</a>
+            </li>
+            <li>Typotheque (n.d.). <strong>Zilla Slab [Font]</strong>. Retrieved from <a
+                    href="https://fonts.google.com/specimen/Zilla+Slab?category=Serif,Display">https://fonts.google.com/specimen/Zilla+Slab?category=Serif,Display</a>
+            </li>
+            <li>Paglinawan, A. (n.d.). <strong>Quicksand [Font]</strong>. Retrieved from <a
+                    href="https://fonts.google.com/specimen/Quicksand?query=quicksan">https://fonts.google.com/specimen/Quicksand?query=quicksan</a>
+            </li>
+            <li>Figure 1. <strong>[Stack of shirts]</strong>. (n.d.). Retrieved from <a
+                    href="https://www.ignant.com/2017/01/19/sunspel-factory-visit/">https://www.ignant.com/2017/01/19/sunspel-factory-visit/</a>
+            </li>
+            <li>Figure 2. <strong>[Sunspel factory]</strong>. (n.d.). Retrieved from <a
+                    href="https://www.ignant.com/2017/01/19/sunspel-factory-visit/">https://www.ignant.com/2017/01/19/sunspel-factory-visit/</a>
+            </li>
+            <li>Figure 3. <strong>[White t-shirt]</strong>. (n.d.). Retrieved from <a
+                    href="https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white">https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white</a>
+            </li>
+            <li>Figure 4. <strong>[White t-shirt Model]</strong>. (n.d.). Retrieved from <a
+                    href="https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white">https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white</a>
+            </li>
+            <li>Figure 5. <strong>[Men in Blue Polo]</strong>. (2021). Retrieved from <a
+                    href="https://oracleoftime.com/how-sunspels-riviera-polo-shirt-became-james-bonds-signature-look/">https://oracleoftime.com/how-sunspels-riviera-polo-shirt-became-james-bonds-signature-look/</a>
+            </li>
+            <li>Figure 6. <strong>[Men Sitting]</strong>. (2023). Retrieved from <a
+                    href="https://www.esquire.com/uk/style/a43903158/the-best-menswear-from-the-very-nice-mr-porter-x-sunspel-collection/">https://www.esquire.com/uk/style/a43903158/the-best-menswear-from-the-very-nice-mr-porter-x-sunspel-collection/</a>
+            </li>
+            <li>Figure 7. <strong>[Sunspel Logo]</strong>. (n.d.). Retrieved from <a
+                    href="https://en.m.wikipedia.org/wiki/File:Sunspel_logo.png">https://en.m.wikipedia.org/wiki/File:Sunspel_logo.png</a>
+            </li>
+            <li>Figure 8. <strong>[Blue Polo]</strong>. (2021). Retrieved from <a
+                    href="https://www.jamesbondlifestyle.com/news/sunspel-sea-island-cotton-autumn-2021-collection-inspired-ian-fleming">https://www.jamesbondlifestyle.com/news/sunspel-sea-island-cotton-autumn-2021-collection-inspired-ian-fleming</a>
+            </li>
+            <li>Figure 9. <strong>[Blue Polo Model]</strong>. (n.d.). Retrieved from <a
+                    href="https://www.sunspel.com/products/mens-cotton-riviera-polo-shirt-navy-mpol1026">https://www.sunspel.com/products/mens-cotton-riviera-polo-shirt-navy-mpol1026</a>
+            </li>
+        </ul>
+
+    </section>
+
+
+
+</body>
+
+</html>

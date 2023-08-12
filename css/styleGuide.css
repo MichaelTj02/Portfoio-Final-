@@ -1,0 +1,51 @@
+body {
+    padding: 2rem;
+}
+
+/* nav */
+
+nav {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* End of nav */
+
+/* Colour Palletes */
+
+.flex-container-color {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colorPalletes {
+    color: white;
+    background-color: black;
+    width: 30rem;
+    margin: 1rem;
+    padding: 3rem;
+    line-height: 1.5rem;
+}
+
+.colorOffWhite {
+    background-color: #faf8f2;
+    color: black;
+}
+
+.colorGrey {
+    background-color: #767C7C;
+}
+
+.colorDarkBlue {
+    background-color: #323E74;
+}
+
+.colorPurple {
+    background-color: #7f6b8d;
+}
+
+.colorOrange {
+    background-color: #e68600;
+}
+
+/* End of Colour Palletes */

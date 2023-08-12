@@ -16,21 +16,22 @@
 <body>
 
     <nav>
-        <div class="navbar-div">
-
-            <div class="left-nav">
-                <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
-            </div>
-
-            <div class="right-nav">
-                <div class="dropdown">
-                    <button class="dropdownbtn nav-text"><img src="img/burger-menu.png" alt="menu burger icon"
-                            class="menu-icon"></button>
-                    <div class="dropdown-content">
-                        <a href="#" class="nav-text">projects</a>
-                        <a href="#" class="nav-text">contact</a>
-                        <a href="#" class="nav-text">style guide</a>
-                    </div>
+        <div class="navbar">
+            <div class="nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+                </div>
+                <div class="menu-items">
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="styleGuide.html">style guide</a></li>
+                    <li><a href="project1.html">project 1: E-Hop</a></li>
+                    <li><a href="project2.html">project 2: Nono's Matcha House</a></li>
                 </div>
             </div>
         </div>
@@ -62,11 +63,11 @@
     <div class="projects-grid-container projects-grid-col">
 
         <div class="projects-grid-image">
-            <a href=#><img src="img/project1.png" alt="project 1 image"></a>
+            <a href="project1.html"><img src="img/project1.png" alt="project 1 image"></a>
         </div>
 
         <div class="projects-grid-image">
-            <a href=#><img src="img/project2.png" alt="project 2 image"></a>
+            <a href="project2.html"><img src="img/project2.png" alt="project 2 image"></a>
         </div>
 
         <div class="projects-grid-description">
@@ -85,7 +86,8 @@
             <h4 class="values-text-subtitle">core values in game design</h4>
         </div>
         <div class="values-text-additional-container">
-            <h4>also contains minimal <strong>bugs</strong> | yes, I hate <strong>bugs</strong> | all kinds of <strong>bugs</strong></h4>
+            <h4>also contains minimal <strong>bugs</strong> | yes, I hate <strong>bugs</strong> | all kinds of
+                <strong>bugs</strong></h4>
         </div>
     </div>
 
@@ -111,36 +113,39 @@
         </div>
     </div>
 
-    <section class="contact-us-section">
+    <section id="contact" class="contact-us-section">
         <h2 class="get-in-touch-text">say hi!</h2>
-    
+
         <div class="contact-us-div">
-          <form action="/action_page.php">
-            <label for="fname" class="contact-us-title-text">First Name</label>
-            <input type="text" class="contact-us-fname contact-us-input-border contact-us-placeholder-text"
-              name="firstname">
-    
-            <label for="lname" class="contact-us-title-text">Last Name</label>
-            <input type="text" class="contact-us-lname contact-us-input-border contact-us-placeholder-text" name="lastname">
-    
-            <label for="lname" class="contact-us-title-text">Email Address</label>
-            <input type="text" class="contact-us-email contact-us-input-border contact-us-placeholder-text" name="lastname">
-    
-            <label for="country" class="contact-us-title-text">Country</label>
-            <select class="contact-us-country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select><br>
-    
-            <label for="contact-us-subject" class="contact-us-title-text">Subject</label>
-            <textarea class="contact-us-subject contact-us-input-border" name="subject" placeholder="Type your message here"
-              style="height:10rem; width:100%;" class="contact-us-placeholder-text"></textarea><br><br>
-    
-            <input type="submit" value="Submit" class="button-style">
-          </form>
+            <form action="/action_page.php">
+                <label for="fname" class="contact-us-title-text">First Name</label>
+                <input type="text" class="contact-us-fname contact-us-input-border contact-us-placeholder-text"
+                    name="firstname">
+
+                <label for="lname" class="contact-us-title-text">Last Name</label>
+                <input type="text" class="contact-us-lname contact-us-input-border contact-us-placeholder-text"
+                    name="lastname">
+
+                <label for="lname" class="contact-us-title-text">Email Address</label>
+                <input type="text" class="contact-us-email contact-us-input-border contact-us-placeholder-text"
+                    name="lastname">
+
+                <label for="country" class="contact-us-title-text">Country</label>
+                <select class="contact-us-country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select><br>
+
+                <label for="contact-us-subject" class="contact-us-title-text">Subject</label>
+                <textarea class="contact-us-subject contact-us-input-border" name="subject"
+                    placeholder="Type your message here" style="height:10rem; width:100%;"
+                    class="contact-us-placeholder-text"></textarea><br><br>
+
+                <input type="submit" value="Submit" class="button-style">
+            </form>
         </div>
-      </section>
+    </section>
 
     <footer>
 
