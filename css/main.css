@@ -38,12 +38,26 @@ p {
   font-family: "Quicksand-Regular", sans-serif;
   font-size: 1rem;
   margin: 0;
+  max-width: 50rem;
+}
+
+li {
+  font-family: "SFPro-Medium", sans-serif;
+  font-size: 1rem;
+  margin: 0;
 }
 
 a {
   font-family: "SFPro-Medium", sans-serif;
   font-size: 1rem;
   margin: 0;
+  color: #323E74;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #E68600;
 }
 
 /* End of Fonts */
@@ -189,5 +203,5 @@ nav {
   display: none;
 }
 
-
+/* Top nav inspired from https://alvarotrigo.com/blog/hamburger-menu-css/ */
 /* End of Top Navigation */
