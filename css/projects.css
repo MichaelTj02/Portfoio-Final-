@@ -1,6 +1,167 @@
 .hero-page {
+    background-image: url("assets/EHop-hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
     margin-top: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.hero-page h3 {
+    font-size: 7rem;
+    color: white;
+}
+
+.hero-page-2 {
+    background-image: url("assets/Nono-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    margin-top: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-page-2 h3 {
+    font-size: 7rem;
+    color: white;
+}
+
+/* Project About Container */
+
+.about-section-container {
+    background-color: #F4EBCF;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 1240px) {
+    .about-section-container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.about-section-grid-container {
+    display: grid;
+    margin-top: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 900px) {
+    .about-section-grid-container {
+        margin-top: 4.5rem;
+        grid-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.about-section-grid-col {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media screen and (min-width: 900px) {
+    .about-section-grid-col {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .about-section-text-grid {
+        grid-column: span 2/span 2;
+    }
+}
+
+.about-section-text-grid {
+    margin-top: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section-text-grid p {
+    color: #323E74;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 70%;
+}
+
+.about-title {
+    color: #E68600;
+    font-size: 3rem;
+    margin: 5rem;
+}
+
+/* End of Project About Container */
+
+/* Project Descriptions Container */
+
+.description-section-container {
+    background-color: #fbfbfb;
+    display: grid;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.description-section-grid-col {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media screen and (min-width: 900px) {
+    .decsription-section-grid-col {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .description-section-image-grid {
+        grid-column: span 1/span 1;
+    }
+}
+
+.description-section-image-grid img {
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 0;
+    height: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    .description-section-text-grid {
+        grid-column: span 2/span 2;
+    }
+}
+
+.description-section-text-grid {
+    margin-top: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-section-text-grid p {
+    font-family: "PostGrotesk Light", serif !important;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 50%;
+}
+
+.description-title {
+    font-size: 3rem;
+    margin: 5rem;
+    margin-left: 0;
+}
+
+/* End of project descriptions container */
