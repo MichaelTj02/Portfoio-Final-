@@ -23,9 +23,8 @@
             <a href="#interactive_elements">Interactive Elements</a>
             <a href="#text_elements">Text Elements</a>
             <a href="#combined_elements">Combined Elements</a>
-            <a href="product_listing.html">Product Listing Template</a>
-            <a href="checkout.html">Checkout Template</a>
             <a href="#citations">Citations</a>
+            <a href="index.html">Home Page</a>
         </nav>
 
     </header>
@@ -58,12 +57,13 @@
 
 
         <section class="element">
-            <h3>Submit/Reset Buttons</h3>
+            <h3>Submit Button</h3>
             <div class="flex-container-submit-reset-button">
-                <form>
-                    <input type="submit" class="btn">
-                    <input type="reset" class="resetbtn">
-                </form>
+                <div class="btn-wrapper">
+                    <button>
+                        Submit
+                    </button>
+                </div>
             </div>
             <!--taken from https://www.w3schools.com/tags/att_button_type.asp-->
         </section>
@@ -71,9 +71,10 @@
 
         <section class="element">
             <h3>Text Input Field with Label</h3>
-            <form>
-                <label>Card Number: <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456"></label>
-            </form>
+            <p class="text-blk input-title">
+                LAST NAME
+            </p>
+            <input class="input" id="indfi-4" name="Last Name">
             <!--taken from https://www.freecodecamp.org/news/html-label-label-tag-example
           /#:~:text=You%20use%20the%20HTML%20%3Clabel,elements%20inside%20a%20form%20element.-->
         </section>
@@ -82,7 +83,7 @@
             <h3>Image as a Link</h3>
             <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML">
                 <div class="imgContainer">
-                    <img class="image" src="image/tshirt1.webp" alt="white t-shirt">
+                    <img class="image" src="img/logo.png" alt="logo">
                 </div>
                 <!-- taken from https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML -->
                 <!-- image hover taken from https://codepen.io/ardieziff/pen/WjMxwy -->
@@ -189,22 +190,22 @@
 
                 <div class="flex-container-color">
                     <div class="colorPalletes">
-                        <p>Black <br> #000000 <br> Key Colour </p>
+                        <p>Black<br>#000000<br>Key Colour </p>
+                    </div>
+                    <div class="colorPalletes colorWhite">
+                        <p>White<br>#FFFFFF<br>Background Colour</p>
                     </div>
                     <div class="colorPalletes colorOffWhite">
-                        <p>Off-White <br> #FAF8F2 <br> Background Colour</p>
+                        <p>Off-White<br>#F4EBCF<br>Accent Colour </p>
                     </div>
                     <div class="colorPalletes colorGrey">
-                        <p>Grey <br> #767C7C <br> Accent Colour</p>
-                    </div>
-                    <div class="colorPalletes colorPurple">
-                        <p>Purple <br> #7F6B8D <br> Accent Colour</p>
+                        <p>Grey<br>#767C7C<br>Accent Colour</p>
                     </div>
                     <div class="colorPalletes colorOrange">
-                        <p>Orange <br> #E68600 <br> Accent Colour</p>
+                        <p>Orange<br>#E68600<br>Accent Colour</p>
                     </div>
                     <div class="colorPalletes colorDarkBlue">
-                        <p>Dark Blue <br> #323E74 <br> Nav Bar and Buttons Colour</p>
+                        <p>Dark Blue<br>#323E74<br>Nav Bar and Buttons Colour</p>
                     </div>
                 </div>
 

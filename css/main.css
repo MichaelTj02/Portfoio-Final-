@@ -56,11 +56,48 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #E68600;
 }
 
 /* End of Fonts */
+
+
+/* Buttons, Forms, & Lables*/
+
+button {
+  font-family: "SFPro-Medium", sans-serif;
+  min-width: 290px;
+  height: 60px;
+  background-color: #323E74;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+button:hover,
+:focus {
+  background-color: #e68600;
+}
+
+input:hover,
+input:focus {
+  background-color: white;
+}
+
+/* End of Buttons, Forms, & Lables */
+
 
 /* Top Navigation */
 
@@ -99,8 +136,8 @@ nav {
   padding: 0.7rem;
 }
 
-.navbar .nav-container a:hover{
-    color: black;
+.navbar .nav-container a:hover {
+  color: black;
 }
 
 .nav-container {
@@ -183,25 +220,152 @@ nav {
   width: 8rem;
 }
 
-.nav-container input[type="checkbox"]:checked ~ .menu-items {
+.nav-container input[type="checkbox"]:checked~.menu-items {
   transform: translateX(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .logo{
+.nav-container input[type="checkbox"]:checked~.logo {
   display: none;
 }
 
 /* Top nav inspired from https://alvarotrigo.com/blog/hamburger-menu-css/ */
 /* End of Top Navigation */
+
+/* Footer */
+
+footer {
+  display: block;
+  position: relative;
+  padding-top: 2.5rem;
+  width: 100%;
+}
+
+footer hr {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 900px) {
+  footer {
+    padding-top: 2rem;
+  }
+
+  footer hr {
+    max-width: 800px;
+  }
+}
+
+.footer-content-container {
+  background-color: #303030;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.footer-content-container h4 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer-content-container p {
+  color: white;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 1240px) {
+  .footer-content-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.footer-grid-container {
+  display: grid;
+  margin-top: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.footer-grid-cols {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media screen and (min-width: 900px) {
+  .footer-grid-container {
+    margin-top: 4.5rem;
+    grid-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-grid-cols {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .footer-grid-cols-span2 {
+    grid-column: span 2/span 2;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .footer-grid-container {
+    max-width: 1240px;
+  }
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-top: 0.8rem;
+}
+
+footer h4 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+footer p {
+  margin-top: 2rem;
+}
+
+footer a {
+  font-family: "Quicksand-Regular", sans-serif;
+  margin-top: 0;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: #979797;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+  color: #FFFFFF;
+}
+
+/* End of Footer */
