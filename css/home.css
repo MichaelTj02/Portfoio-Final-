@@ -1,7 +1,7 @@
 /* Homepage hero */
 
 .hero-home-page {
-    background-image: url("/img/bg.png");
+    background-image: url("assets/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -49,7 +49,7 @@
 /* About section */
 
 .about-section-bg {
-    background-image: url("/img/aboutbg.png");
+    background-image: url("assets/aboutbg.png");
     background-repeat: no-repeat;
     height: 80vh;
     margin: 0;
