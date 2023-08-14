@@ -98,15 +98,39 @@
     max-width: 70%;
 }
 
-.about-title {
+.about-title-left {
     color: #E68600;
     font-size: 3rem;
-    margin: 5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.about-title-right {
+    color: #E68600;
+    font-size: 3rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
 }
 
 /* End of Project About Container */
 
 /* Project Descriptions Container */
+
+.description-text-container {
+    display: block;
+}
+
+.description-text-container p {
+    margin-top: 1rem;
+}
+
+.p-left {
+    margin-left: 5rem;
+}
+
+.p-right {
+    margin-right: 5rem;
+}
 
 .description-section-container {
     background-color: #fbfbfb;
